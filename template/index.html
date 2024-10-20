@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>WebApp</h1>
+        
+        <div class="section-box">
+            <h2>Select an animal:</h2>
+            <select id="animal-select">
+                <option value="">--Please choose an option--</option>
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="elephant">Elephant</option>
+            </select>
+        </div>
+        
+        <div id="image-container"></div>
+        
+        <div class="section-box">
+            <h2>Upload a file</h2>
+            <input type="file" id="file-input">
+            <button id="upload-button">Upload</button>
+        </div>
+        
+        <div id="file-info"></div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
