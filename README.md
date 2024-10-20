@@ -20,7 +20,7 @@ This project is a web application that allows users to select and view animal im
 ## Setup and Installation
 
 1. Clone the repository:   ```
-   git clone https://github.com/yourusername/webapp-animal-companion.git
+   git clone https://github.com/Shilpaj1994/SimpleWebApp.git
    cd webapp-animal-companion   ```
 
 2. Set up a virtual environment using uv:   ```
